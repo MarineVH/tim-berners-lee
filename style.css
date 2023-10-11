@@ -16,8 +16,8 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: #14599D;
+  text-decoration: underline;
 }
 a:hover {
   color: #535bf2;
@@ -32,8 +32,19 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 24px;
+  font-family: Georgia, serif;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: Georgia, serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: Georgia, serif;
 }
 
 #app {
@@ -64,23 +75,21 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 9px 10px 9px 15px;
+  font-size: 12px;
   font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  background-color: transparent;
+  color: #14599D;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  float: right;
 }
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -92,6 +101,12 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+    color: #14599D;
+    font-size: 12px;
+    margin: 0px 0px 0px 10px;
+    padding: 9px 10px 9px 15px;
+    border-radius: 0.5rem;
+    overflow: visible;
   }
 }
 
@@ -104,10 +119,27 @@ main {
 }
 
 #logo {
-  width: 250px;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
 }
 
-#navbar {
-  
+#michael, #editors, #credited {
+  text-decoration-style: dotted;
+}
+
+.science {
+  color: #000000;
+  background-color: #FED7AA;
+  padding: 2px 6px;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.action {
+  vertical-align: center;
 }
