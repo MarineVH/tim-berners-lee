@@ -199,6 +199,7 @@ i {
   font-size: 24px;
   color: #14599D;
   align-items: center;
+  font-weight: 600;
 }
 
 button.content {
@@ -211,9 +212,24 @@ button.content {
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 #play {
   font-size: 35px;
   color: #3C4043;
+}
+
+.play {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.topic-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  flex-direction: column;
 }
