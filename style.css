@@ -99,18 +99,6 @@ button:hover {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-    color: #14599D;
-    font-size: 12px;
-    margin: 0px 0px 0px 10px;
-    padding: 9px 10px 9px 15px;
-    border-radius: 0.5rem;
-    overflow: visible;
-  }
 }
 
 header {
@@ -152,11 +140,11 @@ figure {
   padding: 2px 6px;
   border-radius: 0.5rem;
   text-decoration: none;
+  font-size: 14px;
 }
 
-.action {
-  display: flex;
-  justify-content: space-between;
+#actions {
+  font-size: 18px;
 }
 
 #account {
@@ -164,7 +152,6 @@ figure {
   background-color: #ddd;
   color:#071c2e;
   border-radius: 50px;
-  border-color: #ddd;
 }
 
 #expand {
@@ -188,10 +175,39 @@ figure {
 }
 
 caption {
-  margin: auto;
-  margin-top: 5px;
+  margin: 5px 0px 0px;
+}
+
+i {
+  font-size: 12px;
+  margin: 5px 0px 0px;
+  font-family: Georgia, serif;
 }
 
 .source {
   margin: auto;
+  font-size: 12px;
+  font-family: inherit;
+}
+
+#breadcrumbs {
+  margin: 20px 0px 30px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+#toc {
+  font-size: 24px;
+  color: #14599D;
+}
+
+#content {
+  font-size: 16px;
+  margin: 20px 0px;
+  padding: 12px 20px;
+}
+
+#play {
+  font-size: 35px;
+  color: #3C4043;
 }
