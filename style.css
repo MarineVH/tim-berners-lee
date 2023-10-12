@@ -49,6 +49,7 @@ h2 {
 p {
   font-size: 16px;
   font-family: Georgia, serif;
+  margin: 0px 0px 16px;
 }
 
 #app {
@@ -76,23 +77,6 @@ p {
 .read-the-docs {
   color: #888;
 }
-
-button {
-  border-radius: 0.5rem;
-  padding: 9px 10px 9px 15px;
-  font-size: 12px;
-  font-family: inherit;
-  background-color: transparent;
-  color: #14599D;
-  border-color: #ddd;
-  border-width: 1px;
-  border-style: solid;
-  float: right;
-}
-button:hover {
-  border-color: #646cff;
-}
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -143,8 +127,23 @@ figure {
   font-size: 14px;
 }
 
+button {
+  border-color: #ddd;
+  background-color: transparent;
+  color: #14599D;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 1px;
+}
+
 #actions {
   font-size: 18px;
+}
+
+.actions {
+  padding: 9px 10px 9px 15px;
+  font-size: 12px;
+  font-family: inherit;
 }
 
 #account {
@@ -199,12 +198,19 @@ i {
 #toc {
   font-size: 24px;
   color: #14599D;
+  align-items: center;
 }
 
-#content {
+button.content {
   font-size: 16px;
   margin: 20px 0px;
   padding: 12px 20px;
+  font-family: inherit;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
 }
 
 #play {
